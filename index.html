@@ -108,15 +108,11 @@
 
 </body>
 </html>
+html
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-
-    <meta name="author" content="Cezary Pazura">
-    <meta name="description" content="Strona z żartami">
-    <meta name="keywords" content="żarty, informatyka, lekarz, babie">
-
     <title>Żarty</title>
 
     <style>
@@ -126,133 +122,138 @@
             background-color: #ccffcc;
         }
 
-        .adres {
-            font-size: 10px;
-            text-align: left;
-        }
-
-        .aktor {
-            font-family: "Courier New", monospace;
-            font-size: 28px;
-            color: #ffff00;
-            text-align: center;
-            background: transparent;
-        }
-
-        .zespol {
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            text-align: center;
-        }
-
-        .lesnaa {
-            color: red;
-        }
-
-        .data {
-            font-family: Verdana, sans-serif;
-            font-size: 12px;
-            color: green;
-            text-align: center;
-        }
-
         fieldset {
             margin: 15px 0;
+            background-color: #ccc;
+        }
+
+        .zart {
+            overflow: auto;
+            min-height: 150px;
             padding: 10px;
         }
 
-        legend {
-            font-weight: bold;
-            font-size: 20px;
+        .gif1 {
+            float: right;
+            border: 19px solid black;
+            width: 109px;
+            height: 119px;
         }
 
-        .zart1 {
-            text-align: left;
+        .gif2 {
+            float: left;
+            border: 14px solid black;
+            width: 104px;
+            height: 106px;
         }
 
-        .zart2 {
-            text-align: center;
+        .gif3 {
+            float: right;
+            border: 29px solid black;
+            width: 119px;
+            height: 109px;
         }
 
-        .zart3 {
-            text-align: right;
+        .gif4 {
+            float: left;
+            border: 16px solid black;
+            width: 106px;
+            height: 104px;
         }
 
-        .odstep {
-            word-spacing: 10px;
+        .gif5 {
+            float: right;
+            border: 15px solid black;
+            width: 105px;
+            height: 105px;
+        }
+
+        .tekst {
+            font-size: 12px;
         }
     </style>
 </head>
-    
-    <fieldset>
-        <legend>
-            <h1 align="left">Żart o informatyku</h1>
-        </legend>
 
-        <p class="zart1">
-            Przyszedł informatyk do lekarza.<br>
-            Dzień dobry, proszę pana. Mam problem z komputerem.<br>
-            Lekarz pyta: Co się stało?<br>
-            Informatyk odpowiada: Komputer nie chce się włączyć.<br>
-            Lekarz: A próbował pan go wyłączyć i włączyć ponownie?
-        </p>
-    </fieldset>
+<body>
 
+<fieldset>
+    <legend><h2>Żart o informatyku</h2></legend>
 
-    
-    <fieldset>
-        <legend>
-            <h2 align="center">Żart o lekarzu</h2>
-        </legend>
+    <div class="zart">
+        <img src="informatyk.gif"
+             alt="grafika1-Widuto"
+             class="gif1">
 
-        <p class="zart2">
+        <img src="informatyk.gif"
+             alt="grafika2-Widuto"
+             class="gif2">
+
+        <div class="tekst">
+            Dzieci piszą wypracowanie o tym, jak wyobrażają<br>
+            sobie pracę informatyka.<br>
+            Nie pisze tylko Karol.<br>
+            - Dlaczego nie piszesz? - pyta go nauczycielka.<br>
+            - Czekam, aż mi się otworzy edytor tekstu.
+        </div>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend><h2>Żart o lekarzu</h2></legend>
+
+    <div class="zart">
+        <img src="doctor.gif"
+             alt="grafika3-Widuto"
+             class="gif3">
+
+        <img src="doctor.gif"
+             alt="grafika4-Widuto"
+             class="gif4">
+
+        <div class="tekst">
             Dentysta pyta pacjenta:<br>
             - Panie doktorze, czy ma pan coś na ból zęba?<br>
             - Tak, woreczek lodu.
-        </p>
-    </fieldset>
+        </div>
+    </div>
+</fieldset>
 
+<fieldset>
+    <legend><h2>Żart o babie</h2></legend>
 
-    
-    <fieldset>
-        <legend>
-            <h3 align="right">Żart o babie</h3>
-        </legend>
+    <div class="zart">
+        <img src="babcia.gif"
+             alt="grafika5-Widuto"
+             class="gif5">
 
-        <p class="zart3">
+        <div class="tekst">
             Baba zatrzymała samochód przed sklepem.<br>
             Przychodzi do niej sprzedawca i pyta:<br>
             - Czy coś pani podać?<br>
             - Tak, kilo chleba, proszę.<br>
             - A może coś jeszcze?<br>
             - Nie, dziękuję.
-        </p>
-    </fieldset>
+        </div>
+    </div>
+</fieldset>
 
+<p>
+    Widuto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Karol
+</p>
 
-    <!-- Dane ucznia -->
-    <p class="odstep">
-        nazwisko ucznia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        imię ucznia
-    </p>
+<hr>
+<hr width="50%" align="center">
+<hr width="75%" align="right">
 
-    <p>
-        Karol&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        Widuto
-    </p>
+<p>&amp; &lt; &gt; &quot; &copy; &reg; &euro;</p>
 
+</body>
+</html>
+</html>
 
-    <hr>
-
-    <hr width="50%" align="center">
-
-    <hr width="75%" align="right">
-
-
-    
-    <p>
-        &amp; &lt; &gt; &quot; &copy; &reg; &euro;
-    </p>
+    </div>
+</fieldset>
 
 </body>
 </html>
